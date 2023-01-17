@@ -1,0 +1,26 @@
+.partners{
+  padding: 80px 0 100px;
+  &__label{
+    padding: 54px 0 142px;
+    display: flex;
+    column-gap: 56px;
+  }
+  &__bazar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../images/partners.png");
+
+  }
+  &__text{
+    padding: 100px 0 100px 70px;
+    width: 60%;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+  &__btn{
+   margin-right: 130px;
+  }
+
+}

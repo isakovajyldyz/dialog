@@ -1,0 +1,33 @@
+.begin {
+  padding: 120px 0 140px;
+  position: relative;
+}
+.begin__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 80px;
+     -moz-column-gap: 80px;
+          column-gap: 80px;
+}
+.begin__left {
+  width: 50%;
+}
+.begin__subtitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3035C4;
+}
+.begin__title {
+  font-size: 56px;
+  line-height: 130%;
+  color: #23283B;
+  margin: 28px 0 52px;
+}
+.begin__right {
+  position: absolute;
+  right: 0;
+  top: -100px;
+  z-index: -2;
+}
